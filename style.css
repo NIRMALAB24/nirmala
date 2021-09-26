@@ -1,0 +1,299 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    display: inline-block;    
+}
+
+
+
+
+.header{
+     height: 100vh;
+     width: 100;
+     background-image: url("https://source.unsplash.com/1600x900/?nature,water");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+
+ }
+ 
+.topnav .icon .fa
+{
+    display: none;
+}
+
+
+.topnav{
+    float: right;
+    display: block;
+}
+
+
+.topnav a{
+    display: block;
+    padding: 0 70px;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+
+ /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) 
+{
+  .topnav a:not(:first-child)
+  {display: none;}
+
+     
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  .topnav .icon .fa{
+    display: block;
+  }
+  .container .img {
+    width: 200px ;
+    height: 200px;
+  }
+} 
+ 
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+.topnav.responsive {position: relative;}
+        
+.topnav.responsive a.icon {
+   position: absolute;}
+
+.topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+
+
+    .skills .container label{
+      size: 15px;
+    }
+
+    .skills .container p{
+      font-size: 15px;
+    }
+    
+    .education{
+      background: none;
+      height: 150vh;
+    }
+    .about .container article,p{
+      font-size: 14px;
+    }
+ }
+
+ /* Add a black background color to the top navigation */
+.topnav {
+    overflow:visible;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    top: 0;
+    right: 0;
+  }
+  
+  /* Change the color of links on hover */
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+    float: right;
+  }
+
+
+  .container img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 10px;
+  }
+  .container figcaption{
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .about{
+    height: 105vh;
+    width: 100;
+    background-image: url("https://source.unsplash.com/1600x900/?nature,water,programmer,animal");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+
+
+  .about article{
+    margin: 50px;
+    border: 4px solid rgb(15, 12, 12);
+    text-align:justify;
+    background-color: grey;
+    border-radius: 20px;
+
+  }
+
+  .about article p{
+    margin:10px 15px 10px 15px;
+  }
+  
+.skills{
+  height: 160vh;
+  width: 100;
+  background-image: url("https://source.unsplash.com/1600x900/?nature,water,programmer");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.skills .container article{
+  border: 2px solid grey;
+  border-radius: 10px;
+  background-color: rgb(168, 168, 135);
+  border-collapse: separate;
+  border-spacing: 10px;
+}
+.skills .container article h6{
+  text-align: center;
+}
+.skills .container article p{
+  text-align: justify;
+  font-size: 15px;
+}
+.skills .container div h4{
+  text-align: center;
+}
+ .skills .container h4{
+   margin-top: 20px;
+ }
+.skills .container label{
+  font-size: 20px;
+}
+
+
+
+.edu
+{
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+.box label {
+    font-size: 1.3rem;
+    padding: 3px 10px;
+    border: 2px solid #0a9922;
+
+}
+
+.box p{
+    color: rgb(3, 23, 48);
+}
+
+
+.education{
+  height: 150vh;
+  width: 100;
+  background-image: url("https://source.unsplash.com/1600x900/?nature,water,beauty,home,programmer");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+ .education h3,h4{
+   text-align: center;
+ }
+
+
+
+
+.hobby .card .card-title h5{
+  text-align: center;
+}
+.hobby .card .card-text p{
+  font-family: sans-serif  ;
+  text-align: justify;
+
+}
+.hobby .container p{
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: justify;
+}
+
+.hobby .container h2{
+  margin-top: 10px;
+}
+
+.hobby{
+  background-color: grey;
+}
+
+
+  /* Footer section styling */
+  .footer {
+    background-color:black
+  }
+  .footer hr{
+    color: white;
+  }
+
+  
+.fab,
+.fas {
+  border: 1px solid #222222;
+  padding: 8px 12px;
+  border-radius: 10px;
+  color: #35a22c;
+  font-size: 1.1rem;
+  transition: 0.3s;
+  border-radius: 100%;
+}
+
+.footer a{
+    
+    padding: 0;
+    margin: 0;
+    height: 36px;
+    display: inline-block;
+}
+
+.footer {
+    text-align: center;
+}
+
+.icons .fab:hover,
+.fas:hover {
+  border: 1px solid #35a22c;
+  border-radius: 80%;
+  size: 20px;
+  color: rgb(49, 46, 46);
+  transform: translateY(-20px);
+  box-shadow: inset -1px -1px 2px hsla(0, 57%, 9%, 0.835), 2px 24px 10px #8f6060e8;
+}
+
+.icons p {
+    color: rgb(9, 184, 24);
+  }
