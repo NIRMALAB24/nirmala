@@ -4,7 +4,9 @@
     padding: 0;
 }
 
-a{
+
+/* ------ home page styling start from here -- */
+.header a{
     display: inline-block;    
 }
 
@@ -12,7 +14,7 @@ a{
 
 
 .header{
-     height: 100vh;
+     height:120vh;
      width: 100;
      background-image: url("https://source.unsplash.com/1600x900/?nature,water");
      background-position: center;
@@ -26,12 +28,10 @@ a{
     display: none;
 }
 
-
 .topnav{
     float: right;
     display: block;
 }
-
 
 .topnav a{
     display: block;
@@ -40,59 +40,6 @@ a{
     text-decoration: none;
 
 }
-
-
- /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-@media screen and (max-width: 600px) 
-{
-  .topnav a:not(:first-child)
-  {display: none;}
-
-     
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-  .topnav .icon .fa{
-    display: block;
-  }
-  .container .img {
-    width: 200px ;
-    height: 200px;
-  }
-} 
- 
-
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-@media screen and (max-width: 600px) {
-.topnav.responsive {position: relative;}
-        
-.topnav.responsive a.icon {
-   position: absolute;}
-
-.topnav.responsive a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-
-
-    .skills .container label{
-      size: 15px;
-    }
-
-    .skills .container p{
-      font-size: 15px;
-    }
-    
-    .education{
-      background: none;
-      height: 150vh;
-    }
-    .about .container article,p{
-      font-size: 14px;
-    }
- }
 
  /* Add a black background color to the top navigation */
 .topnav {
@@ -122,6 +69,9 @@ a{
   }
 
 
+  /*-- about page styling start from here -- */
+/* -- profile pic -- */
+
   .container img{
     width: 300px;
     height: 300px;
@@ -132,6 +82,8 @@ a{
     text-align: center;
     font-weight: bold;
   }
+
+
 
   .about{
     height: 105vh;
@@ -157,8 +109,12 @@ a{
     margin:10px 15px 10px 15px;
   }
   
+
+
+
+  /* -- skills section styling start from here -- */
 .skills{
-  height: 160vh;
+  height: 120vh;
   width: 100;
   background-image: url("https://source.unsplash.com/1600x900/?nature,water,programmer");
   background-position: center;
@@ -191,7 +147,7 @@ a{
   font-size: 20px;
 }
 
-
+/*--- education section start from here -- */
 
 .edu
 {
@@ -214,7 +170,7 @@ a{
 
 
 .education{
-  height: 150vh;
+  height: 100vh;
   width: 100;
   background-image: url("https://source.unsplash.com/1600x900/?nature,water,beauty,home,programmer");
   background-position: center;
@@ -227,7 +183,7 @@ a{
  }
 
 
-
+/* -- hobbies section start from here -- */
 
 .hobby .card .card-title h5{
   text-align: center;
@@ -250,7 +206,6 @@ a{
 .hobby{
   background-color: grey;
 }
-
 
   /* Footer section styling */
   .footer {
@@ -297,3 +252,45 @@ a{
 .icons p {
     color: rgb(9, 184, 24);
   }
+
+
+  
+ /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) 
+{
+  .topnav a:not(:first-child)
+  {display: none;}
+
+     
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  .topnav .icon .fa{
+    display: block;
+  }
+  .container .img {
+    width: 200px ;
+    height: 200px;
+  }
+} 
+ 
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+.topnav.responsive {position: relative;}
+        
+.topnav.responsive a.icon {
+   position: absolute;}
+
+.topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+
+
+    .about .container article,p{
+      font-size: 14px;
+    }
+ }
