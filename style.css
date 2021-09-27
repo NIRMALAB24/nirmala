@@ -16,7 +16,7 @@
 .header{
      height:120vh;
      width: 100;
-     background-image: url("images/natwater.jpg");
+     background-image: url("images/homee.jpg");
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
@@ -86,9 +86,9 @@
 
 
   .about{
-    height: 105vh;
+    
     width: 100;
-    background-image: url("images/animal.jpg");
+    background-image: url("images/wallpaper.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -116,7 +116,7 @@
 .skills{
   
   width: 100;
-  background-image: url("https://source.unsplash.com/1600x900/?nature,water,programmer");
+  background-image: url("images/home.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -174,7 +174,7 @@
 .education{
   
   width: 100;
-  background-image: url("https://source.unsplash.com/1600x900/?nature,water,beauty,home,programmer");
+  background-image: url("images/white back.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
