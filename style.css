@@ -114,7 +114,7 @@
 
   /* -- skills section styling start from here -- */
 .skills{
-  height: 120vh;
+  
   width: 100;
   background-image: url("https://source.unsplash.com/1600x900/?nature,water,programmer");
   background-position: center;
@@ -170,7 +170,7 @@
 
 
 .education{
-  height: 100vh;
+  
   width: 100;
   background-image: url("https://source.unsplash.com/1600x900/?nature,water,beauty,home,programmer");
   background-position: center;
