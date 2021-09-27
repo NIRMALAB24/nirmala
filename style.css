@@ -147,7 +147,7 @@
   font-size: 20px;
 }
 .skills .progress-bar {
-  background: linear-gradient(to right, rgb(10, 114, 184),rgb(228, 8, 162), #350e02);
+  background: linear-gradient(to right, hsl(187, 94%, 51%),rgb(155, 226, 24), rgb(10, 114, 184));
 }
 
 /*--- education section start from here -- */
