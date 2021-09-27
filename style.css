@@ -157,7 +157,6 @@
     color: black;
     font-weight: bold;
     font-size: 30px;
-
 }
 
 .box label {
@@ -291,8 +290,6 @@
       display: block;
       text-align: left;
     }
-
-
     .about .container article,p{
       font-size: 14px;
     }
